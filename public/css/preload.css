@@ -1,0 +1,32 @@
+#loading {
+    text-align: center;
+    background: #201414;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999999;
+    cursor: wait;
+    display: block;
+}
+
+#loading:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.imagePreload {
+    animation: spinpre 3s infinite;
+}
+
+@keyframes spinpre {
+    100% {
+        transform: rotateY(360deg);
+    }
+}

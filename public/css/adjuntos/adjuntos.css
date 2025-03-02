@@ -1,0 +1,149 @@
+.modal-title {
+  line-height: 2.5;
+  margin-left: 10px;
+}
+
+#one {
+  margin-top:50px;
+  box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.04)
+}
+.it .btn-orange {
+ background-color: transparent;
+ border-color: #ddd!important;
+ color: #b0b4c9;
+ text-align: left;
+ width:100%;
+}
+
+.form-control {
+ color: #b0b4c9;
+}
+.fileUpload .fileUpload_estudio {
+  position: relative;
+  overflow: hidden;
+  padding: 0.25rem 1rem;
+  /*margin: 0px;*/
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.fileUpload_estudio input.upload_estudio {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.it .btn-next .btn-next_estudio{
+ margin: 30px 0px;
+ border-radius: 0px;
+ background-color: #489292;
+ color: #fff;
+ font-size: 16px;
+ width: 155px;
+ background-color: #6058d8;
+ color: #fff;
+}
+.it .btn-check .btn-check_estudio{
+  cursor:pointer;
+  line-height:54px;
+  padding: 0.25rem 1rem;
+}
+.it .uploadDoc .uploadDoc_estudio{
+  margin-bottom: 20px;
+}
+.it .btn-orange img {
+  width: 30px;
+}
+p{
+  font-size:16px;
+  text-align:center;
+  margin:0px 0px;
+}
+.it #uploader .docErr{
+  position: absolute;
+  right:auto;
+  left: 10px;
+  top: -56px;
+  padding: 10px;
+  font-size: 10px;
+  background-color: #fff;
+  color: red;
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
+  display: none;
+}
+
+#uploader_estudio .docErr_estudio{
+  position: absolute;
+  right:auto;
+  left: 10px;
+  top: -56px;
+  padding: 10px;
+  font-size: 10px;
+  background-color: #fff;
+  color: red;
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
+  display: none;
+}
+
+.it #uploader .docErr:after{
+  content: '\f0d7';
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  bottom: -40px;
+  text-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+.it #uploader_estudio .docErr_estudio:after{
+  content: '\f0d7';
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  bottom: -40px;
+  text-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+
